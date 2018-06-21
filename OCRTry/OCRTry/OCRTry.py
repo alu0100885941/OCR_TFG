@@ -1,13 +1,22 @@
 #Operaciones básicas con imágenes.
 
 import cv2
+import sys
+import os
 import matplotlib.pyplot as plt
 import numpy as np 
 from PIL import Image
+from PIL import ImageFont
+from PIL import ImageDraw
+from pytesseract import image_to_string
+import pytesseract
+
+pytesseract.pytesseract.tesseract_cmd= "C:/Program Files (x86)/Tesseract-OCR/tesseract.exe"
 #Leer imágenes
 img = cv2.imread("C:/Users/sergm/source/repos/OCRTry/prueba.png")
 imgGris= cv2.imread("C:/Users/sergm/source/repos/OCRTry/prueba.png", 0)
-
+BLACK= [0,0,0]
+#api = tesseract.TessBaseApi()
 #Escribir Imágenes
 '''
     cv2.imwrite("C:/Users/sergm/source/repos/OCRTry/pruebaGris.png", imgGris)
@@ -64,11 +73,39 @@ def Binarization(input):
      binary_image= cv2.imread("Captura-Grayscale.png")
      binary_image= cv2.bitwise_not(binary_image)
      return  binary_image
-     
 
-img2 = cv2.imread("C:/Users/sergm/source/repos/OCRTry/carta_entera.jpg")
+def skewAndCrop(input, box):
+    angle_box = box[2]
+    size_box = box[1]
+    if(angle_box < -45):
+        angle_box += 90
+        box[1][0], box[1][1] = box[1][1], box[1][0]
+    transform = cv2.getRotationMatrix2D(box[0], angle_box, 1.0)
+    rotated = cv2.warpAffine(input, transform, (input.shape[0], input.shape[1]), cv2.INTER_CUBIC)
+    
+    cropped = cv2.getRectSubPix(rotated, (int(size_box[0]),int(size_box[1])), box[0])
+    cropped = cv2.copyMakeBorder(cropped, 10,10,10,10,cv2.BORDER_CONSTANT, value=BLACK)
+    return cropped
+
+def identifyTextTesseract(input):
+    
+    text = image_to_string(input, "por")
+    return text
+
+
+def processTextRecogn(input):
+    
+    filtC1= cv2.text.loadClassifierNM1("trained_classifierNM1.xml")
+    filt1= cv2.text.createERFilterNM1(filtC1)
+    filtC2= cv2.text.loadClassifierNM2("trained_classifierNM2.xml")
+    filt2= cv2.text.createERFilterNM2(filtC2)
+    regions = cv2.text.detectRegions(input, filt1, filt2)
+    return regions
+   
+
+
+img2 = cv2.imread("C:/Users/sergm/source/repos/OCRTry/Captura.png")
 binarizada = Binarization(img2);
-
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS, (3,3))
 dilated = cv2.dilate(binarizada, kernel, iterations=5)
 dilated = cv2.cvtColor(dilated, cv2.COLOR_BGR2GRAY)
@@ -89,16 +126,26 @@ for i in range(len(cnts)):
     if(proportion > 0.5):
         continue
     areas.append(box)
-    
+plt.gray()    
+imgGrisPrueba= cv2.imread("C:/Users/sergm/source/repos/OCRTry/carta_entera.jpg") 
+ 
 
 for i in range(len(areas)):
    box= cv2.boxPoints(areas[i])
    box= np.int0(box)
-   cv2.drawContours(binarizada,[box],0,(0,0,255),2)
-   
+   cv2.drawContours(imgGrisPrueba,[box],0,(0,0,255),2)
+
+   cropped = skewAndCrop(imgGrisPrueba, areas[i])
+   text = identifyTextTesseract(cropped)
+   print(text)
+   plt.imshow(cropped)
+   plt.show()
+   cv2.waitKey(0)
 
 
-plt.gray()
-plt.imshow(binarizada)
+text = identifyTextTesseract(imgGrisPrueba)
+print(text)
+
+plt.imshow(imgGrisPrueba)
 plt.show()
 
