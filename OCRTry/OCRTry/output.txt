@@ -1,0 +1,2466 @@
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+TTG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+RHN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida3.png
+200/200
+NGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
+143/184
+QHD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida7.png
+057/134
+GLP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida8.png
+150/170
+JMX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida9.png
+084/179
+AWD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida10.png
+181/181
+PPZ* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida11.png
+002/178
+GKM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida12.png
+200/200
+GEB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida13.png
+032/150
+TRM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida16.png
+128/166
+ACK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida17.png
+108/158
+YGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida19.png
+027/139
+PFD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida21.png
+167/199
+MRY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida23.png
+061/160
+XQK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida24.png
+094/132
+WST * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida25.png
+181/197
+XJO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida26.png
+197/197
+TFH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida27.png
+133/136
+NQY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida28.png
+094/200
+LNY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida29.png
+154/196
+RZX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida30.png
+020/169
+605 * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida32.png
+162/186
+RMM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida33.png
+049/180
+ODP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida34.png
+097/198
+UFD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida40.png
+046/167
+GRC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida41.png
+033/158
+KTB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida42.png
+070/171
+UNZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida43.png
+103/148
+BDW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida44.png
+105/172
+GXC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida45.png
+153/162
+COK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida49.png
+102/133
+GUB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida50.png
+022/167
+FDW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida51.png
+095/148
+DGP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida52.png
+156/188
+SMN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida54.png
+188/192
+FEW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida55.png
+151/185
+HMB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida56.png
+181/192
+SBO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida57.png
+010/121
+DBY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida58.png
+132/162
+RUC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida59.png
+092/135
+WGF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida60.png
+124/198
+VFX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida62.png
+028/157
+DWM * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida63.png
+019/125
+ROR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida64.png
+122/154
+CMQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida65.png
+173/191
+GDV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida66.png
+093/110
+CNS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida67.png
+121/121
+YBN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida69.png
+058/171
+MFX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida70.png
+186/199
+PXO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida71.png
+033/125
+DVW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida72.png
+092/106
+KOR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida74.png
+112/186
+JGH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida77.png
+132/184
+HNX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida78.png
+075/169
+LTW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida81.png
+089/169
+RWL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida82.png
+033/196
+SBX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida83.png
+101/180
+ANG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida85.png
+129/170
+WJE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida86.png
+019/123
+HYS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida87.png
+178/179
+XBK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida88.png
+080/130
+WFZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida89.png
+057/110
+TLH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida90.png
+119/165
+OFX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida91.png
+121/162
+DBW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida92.png
+055/193
+UXG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida93.png
+155/170
+XOZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida95.png
+155/186
+NMW * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida96.png
+147/182
+HBX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida98.png
+118/123
+ZNV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida99.png
+170/197
+CUD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida101.png
+012/192
+RDX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida102.png
+004/194
+MUJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida103.png
+021/163
+NIM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida105.png
+096/106
+YYO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida108.png
+181/198
+BOW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida109.png
+153/156
+ASE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida111.png
+075/190
+BNF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida112.png
+056/164
+OKA* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida114.png
+058/162
+UDY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida115.png
+162/163
+MES * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida116.png
+130/154
+JPO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida117.png
+*EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida119.png
+156/198
+HUW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida120.png
+051/172
+DFD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida121.png
+165/165
+RMT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida122.png
+000/195
+XQD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida123.png
+093/145
+BBN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida124.png
+004/160
+YWB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida125.png
+186/199
+CKV* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida126.png
+179/193
+JWU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida127.png
+076/192
+YRD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida128.png
+173/177
+SOE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida129.png
+138/141
+HLS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida130.png
+145/189
+PAR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida132.png
+098/154
+GRX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida133.png
+073/126
+IUW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida134.png
+125/187
+FEN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida135.png
+153/153
+CED * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida136.png
+192/196
+AVQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida137.png
+120/195
+VXB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida139.png
+109/196
+LWU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida140.png
+088/112
+KFN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida142.png
+155/181
+NLU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida143.png
+028/199
+UYR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida144.png
+159/190
+UVQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida145.png
+178/191
+GZH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida146.png
+155/199
+SDR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida148.png
+191/198
+SMO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida151.png
+098/135
+HGU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida156.png
+004/119
+ASC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida157.png
+155/179
+DZA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida158.png
+168/197
+FNY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida159.png
+143/189
+DTO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida160.png
+187/189
+SWH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida161.png
+022/191
+KBB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida164.png
+112/123
+XUA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida165.png
+151/154
+KTT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida166.png
+197/198
+HUP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida167.png
+174/176
+BZR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida168.png
+109/196
+WNI * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida169.png
+041/177
+URU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida170.png
+083/100
+LRB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida171.png
+003/124
+AUQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida173.png
+126/133
+AQP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida174.png
+106/129
+KXN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida176.png
+176/188
+BDZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida177.png
+070/152
+BNQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida178.png
+131/194
+SBN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida179.png
+164/200
+VUX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida180.png
+060/165
+HDN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida182.png
+153/160
+XDF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida183.png
+026/197
+GCH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida184.png
+037/192
+RZN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida185.png
+188/188
+MXN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida187.png
+027/119
+UTW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida188.png
+107/114
+MKR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida191.png
+089/148
+SDL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida193.png
+186/196
+UQV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida195.png
+094/197
+NKD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida197.png
+059/183
+RWC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida198.png
+097/154
+NXD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida199.png
+008/190
+XGG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida201.png
+073/174
+XCO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida202.png
+193/195
+WSO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida203.png
+154/171
+KHR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida204.png
+183/191
+TAH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida205.png
+082/125
+YJM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida206.png
+192/195
+TSZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida207.png
+021/157
+PXF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida208.png
+160/189
+OLS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida209.png
+172/177
+YVG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida210.png
+156/157
+OSR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida213.png
+008/124
+PXK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida215.png
+046/189
+UKE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida216.png
+003/141
+TVR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida220.png
+111/191
+DPX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida223.png
+145/155
+WLJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida224.png
+133/192
+WSM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida225.png
+055/150
+NKN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida227.png
+127/195
+WYA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida229.png
+063/138
+VBW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida230.png
+015/159
+HNR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida231.png
+091/191
+EFW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida232.png
+189/196
+BBG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida233.png
+007/107
+ZCO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida234.png
+072/165
+ENH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida235.png
+182/193
+FGO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida236.png
+121/192
+EVX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida237.png
+068/144
+VMH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida238.png
+185/188
+ZJW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida240.png
+033/109
+XXX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida241.png
+188/198
+MHD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida242.png
+006/196
+NRO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida243.png
+149/151
+AQA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida244.png
+156/174
+BMO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida246.png
+195/195
+SUS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida247.png
+194/198
+WAM * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida249.png
+043/157
+YXX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida250.png
+096/175
+BAW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida251.png
+042/159
+VUG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida252.png
+168/187
+LHY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida253.png
+047/154
+MAN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida254.png
+118/163
+RVD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida255.png
+090/101
+MRY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida256.png
+170/182
+XOX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida258.png
+091/164
+YTX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida259.png
+056/125
+LVU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida261.png
+054/156
+NAO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida262.png
+116/177
+EZP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida264.png
+024/160
+VYV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida266.png
+065/154
+TUC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida267.png
+131/131
+WRQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida268.png
+015/169
+VWZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida269.png
+006/110
+TWH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida270.png
+047/130
+RMJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida273.png
+054/130
+NUT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida274.png
+102/155
+FUN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida275.png
+173/173
+PXF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida276.png
+170/170
+WRD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida277.png
+195/195
+RUU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida279.png
+094/172
+YHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida281.png
+089/185
+ATX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida282.png
+029/182
+MSC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida283.png
+051/129
+XKA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida284.png
+001/149
+DGG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida285.png
+142/179
+FOL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida286.png
+095/185
+EYA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida288.png
+192/195
+HNQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida289.png
+043/184
+YVC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida290.png
+015/148
+RVF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida291.png
+090/175
+OXG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida292.png
+127/193
+DUN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida293.png
+040/168
+XCS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida294.png
+104/151
+GLT* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida297.png
+105/179
+WLO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida299.png
+047/ I 09
+EVT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida300.png
+133/166
+NSD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida301.png
+007/197
+JVW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida302.png
+077/196
+MZG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida303.png
+085/108
+LNP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida304.png
+190/198
+OMY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida305.png
+178/179
+QNQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida306.png
+054/146
+EKR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida308.png
+108/158
+GSV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida311.png
+036/148
+MEY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida312.png
+018/125
+EXK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida313.png
+194/195
+OCG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida314.png
+133/134
+YOB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida315.png
+067/200
+ENT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida316.png
+043/116
+KJW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida317.png
+052/188
+PRX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida319.png
+176/190
+APP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida320.png
+118/132
+|HW* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida321.png
+017/191
+ZXM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida323.png
+160/192
+JHV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida324.png
+099/125
+SHA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida326.png
+115/159
+VAB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida327.png
+140/192
+VOZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida328.png
+038/133
+TSH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida329.png
+053/194
+PNZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida330.png
+132/148
+MZE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida332.png
+109/122
+ENP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida334.png
+033/150
+GSC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida336.png
+185/189
+ZGW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida338.png
+036/197
+RNF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida339.png
+160/174
+AMP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida340.png
+106/167
+ROJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida341.png
+158/176
+BRT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida342.png
+033/194
+ADT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida343.png
+096/200
+AMN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida344.png
+100/175
+ZPW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida345.png
+042/165
+NEZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida346.png
+102/138
+AZT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida347.png
+146/163
+YDL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida348.png
+091/142
+HEL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida349.png
+022/134
+SFM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida350.png
+168/199
+RQK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida351.png
+196/196
+CWX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida353.png
+025/197
+GKN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida354.png
+047/193
+WXX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida355.png
+174/189
+TDQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida356.png
+183/199
+CUQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida357.png
+086/198
+EAM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida360.png
+010/157
+MNX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida363.png
+159/162
+QNW * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida364.png
+020/174
+WKA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida366.png
+129/188
+BOU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida368.png
+121/162
+VLA* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida369.png
+061/132
+DNW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida370.png
+058/158
+BUG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida371.png
+153/174
+ZTV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida373.png
+140/147
+HVU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida374.png
+122/162
+IWZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida375.png
+020/184
+GDF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida376.png
+115/196
+JWV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida377.png
+065/181
+MNQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida378.png
+038/180
+HCP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida380.png
+041/190
+HKY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida381.png
+080/176
+KPG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida382.png
+052/198
+HPL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida383.png
+073/177
+AZW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida384.png
+025/156
+TTS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida386.png
+059/137
+352 * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida388.png
+056/152
+UUX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida389.png
+105/127
+TMC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida390.png
+085/140
+XXC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida391.png
+105/140
+PRO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida393.png
+021/152
+OVW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida394.png
+120/184
+GWM * Eb
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida395.png
+176/188
+HPE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida396.png
+049/128
+ACZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida398.png
+129/151
+AZT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida399.png
+040/163
+RFP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida400.png
+096/176
+HHQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida401.png
+163/168
+GYE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida403.png
+078/196
+HVX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida404.png
+052/187
+KST * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida405.png
+117/119
+PPT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida406.png
+049/102
+TGV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida407.png
+164/174
+VQX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida408.png
+169/169
+DNL* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida411.png
+077/172
+BQN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida412.png
+094/186
+VVR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida413.png
+195/195
+SEV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida414.png
+107/150
+XGL* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida415.png
+008/198
+CPS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida416.png
+120/161
+WHU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida417.png
+166/195
+UZR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida418.png
+151/173
+PXY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida419.png
+156/189
+LAX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida421.png
+008/181
+VGY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida422.png
+011/126
+YWM * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida423.png
+067/195
+UHU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida424.png
+115/150
+LAA* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida426.png
+091/154
+ZAP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida427.png
+125/188
+TSK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida428.png
+155/160
+SRX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida431.png
+132/162
+XBB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida433.png
+175/181
+USG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida434.png
+072/184
+HDU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida435.png
+099/115
+WDX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida436.png
+188/197
+FDE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida438.png
+061/165
+VHT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida439.png
+088/137
+BPN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida441.png
+158/187
+RAV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida442.png
+101/115
+HVL* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida445.png
+150/184
+BRW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida446.png
+096/196
+TFW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida450.png
+126/200
+FXX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida451.png
+102/181
+GFM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida453.png
+046/149
+MOC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida454.png
+135/162
+BKL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida455.png
+190/200
+MAX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida456.png
+144/166
+UVS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida457.png
+179/187
+KSP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida458.png
+188/191
+XCV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida459.png
+045/158
+BDS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida461.png
+020/185
+HUD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida462.png
+051/160
+SQN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida464.png
+071/199
+PYD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida465.png
+112/174
+ODB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida466.png
+071/149
+FMP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida467.png
+049/140
+NQH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida468.png
+139/194
+KXT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida469.png
+036/186
+NSU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida470.png
+117/193
+EHK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida472.png
+172/187
+SEA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida474.png
+021/128
+DHT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida475.png
+184/200
+UOE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida476.png
+164/198
+PVM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida479.png
+165/190
+ATM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida480.png
+171/185
+STD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida481.png
+118/163
+WNQ * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida483.png
+178/192
+QWG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida484.png
+046/183
+WYG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida485.png
+175/185
+LWY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida486.png
+088/101
+THS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida487.png
+129/147
+RCO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida488.png
+048/113
+VQN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida492.png
+169/171
+UEE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida493.png
+102/111
+SYH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida494.png
+154/175
+UAZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida495.png
+044/167
+HKW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida496.png
+174/179
+KCB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida498.png
+176/188
+GUD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida499.png
+139/174
+TXC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida500.png
+074/161
+YSP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida501.png
+156/157
+KZR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida502.png
+101/183
+OYX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida503.png
+*EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida505.png
+023/189
+WWG * Er
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida506.png
+180/191
+VHZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida507.png
+132/165
+NVU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida508.png
+127/156
+VAA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida509.png
+058/177
+PYF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida510.png
+153/160
+RTF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida512.png
+120/134
+PWO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida513.png
+059/164
+GBW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida514.png
+126/144
+ATW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida515.png
+040/185
+SWT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida516.png
+094/195
+ZOT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida517.png
+117/121
+GVL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida518.png
+160/183
+KPV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida519.png
+081/134
+TVM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida520.png
+066/130
+AWW * Er
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida521.png
+142/198
+WCN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida523.png
+174/184
+KDN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida525.png
+098/122
+HSQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida527.png
+160/195
+ZHO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida528.png
+056/162
+LYR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida529.png
+143/166
+QWT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida531.png
+172/195
+DPQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida534.png
+152/178
+VRA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida536.png
+186/197
+HRQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida537.png
+068/193
+JYM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida538.png
+075/183
+TIW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida539.png
+172/199
+FAK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida540.png
+101/186
+PNW* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida542.png
+153/169
+ACC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida543.png
+092/179
+FRK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida544.png
+118/185
+MIG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida548.png
+049/181
+PKC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida549.png
+142/162
+BDK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida550.png
+049/181
+XJM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida551.png
+079/113
+UEL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida552.png
+152/187
+EEA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida553.png
+095/195
+RVT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida554.png
+188/195
+UOT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida557.png
+036/185
+OVJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida558.png
+145/199
+USN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida559.png
+052/178
+DEG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida560.png
+004/178
+UGO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida561.png
+179/183
+WQQ * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida562.png
+023/124
+OUD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida563.png
+190/198
+SSX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida565.png
+026/168
+JXO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida566.png
+024/191
+VKS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida567.png
+113/144
+CXT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida568.png
+179/197
+KUV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida569.png
+138/152
+KHR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida570.png
+037/187
+UTF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida571.png
+123/136
+AKT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida572.png
+127/194
+UPT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida573.png
+195/196
+MJK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida574.png
+179/181
+NXX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida575.png
+161/165
+MLP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida577.png
+113/131
+ZYY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida579.png
+010/155
+UBR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida580.png
+140/183
+YWM * Eb
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida581.png
+029/185
+AQQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida582.png
+193/194
+TZS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida583.png
+019/144
+THP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida585.png
+113/122
+ACM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida586.png
+030/129
+VYZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida587.png
+150/172
+XPH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida588.png
+090/195
+VBM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida589.png
+077/198
+MRX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida590.png
+065/157
+BAZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida591.png
+118/148
+LTY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida593.png
+018/179
+UXS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida594.png
+117/143
+KEM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida595.png
+199/199
+XLA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida596.png
+008/189
+OUG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida598.png
+199/200
+OEK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida599.png
+021/119
+RWO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida600.png
+184/187
+BGR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida601.png
+023/190
+HDD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida602.png
+033/178
+SAH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida604.png
+142/188
+UWK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida605.png
+054/108
+VXZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida606.png
+001/114
+RYS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida607.png
+141/149
+ANC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida608.png
+114/151
+HDU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida610.png
+045/105
+DDH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida611.png
+176/179
+TOT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida612.png
+065/152
+HFR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida613.png
+159/179
+OEU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida614.png
+188/196
+RAR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida615.png
+070/162
+UBH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida617.png
+068/147
+QSH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida618.png
+064/191
+SHN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida619.png
+038/194
+HAB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida620.png
+151/180
+HVS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida621.png
+120/147
+MPE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida622.png
+081/156
+HOW * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida623.png
+114/160
+CLW* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida624.png
+057/172
+SDK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida625.png
+185/198
+RCB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida627.png
+069/167
+NAQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida628.png
+096/140
+DUA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida629.png
+012/135
+TOQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida630.png
+133/176
+GYE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida631.png
+195/197
+KRX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida632.png
+193/196
+YBH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida633.png
+127/135
+GLX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida634.png
+023/143
+NHU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida635.png
+169/170
+VVB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida636.png
+053/141
+QOW * Eb
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida637.png
+169/172
+DSK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida638.png
+008/129
+FAB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida639.png
+004/200
+DOI * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida640.png
+148/199
+NWB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida642.png
+119/137
+PMU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida643.png
+008/192
+XFD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida646.png
+071/177
+MWE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida647.png
+089/187
+XWX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida648.png
+085/143
+DKY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida650.png
+028/ I72
+KWA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida651.png
+128/156
+USD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida652.png
+032/198
+KEW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida653.png
+144/148
+ZSB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida656.png
+114/146
+WXW * Er
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida657.png
+196/196
+QWR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida658.png
+011/154
+EUM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida660.png
+021/179
+HEH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida661.png
+156/163
+AKT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida662.png
+085/138
+QNZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida663.png
+177/177
+MKS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida664.png
+123/178
+EGN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida666.png
+027/196
+PZA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida667.png
+194/200
+BZY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida669.png
+117/154
+NWY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida670.png
+146/160
+RVG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida676.png
+183/188
+XLC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida677.png
+005/183
+WHQ * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida678.png
+147/158
+CYC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida679.png
+200/200
+AWT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida680.png
+132/196
+XMX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida681.png
+143/166
+JUY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida682.png
+016/119
+SKM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida683.png
+095/152
+CXP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida685.png
+089/189
+SMS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida689.png
+095/197
+PNE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida692.png
+143/193
+AWZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida693.png
+199/200
+ZHD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida694.png
+017/145
+ATV* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida695.png
+166/199
+VMO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida696.png
+064/122
+NOT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida697.png
+159/200
+UNY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida699.png
+045/194
+TJW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida704.png
+176/181
+OQC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida707.png
+087/187
+ZNY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida708.png
+067/130
+IRW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida709.png
+069/170
+RDW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida710.png
+175/187
+DHZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida711.png
+098/105
+PXL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida713.png
+020/173
+AYD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida714.png
+106/192
+EVT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida716.png
+068/198
+RYU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida717.png
+006/199
+WHQ * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida718.png
+111/193
+OOW* Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida719.png
+139/151
+VRN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida721.png
+128/177
+WAY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida722.png
+171/182
+CXN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida723.png
+125/188
+NRC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida724.png
+105/196
+GGS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida725.png
+193/199
+GDD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida727.png
+007/126
+YNU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida728.png
+008/127
+UBR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida729.png
+022/175
+PBT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida730.png
+187/191
+DBA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida731.png
+068/127
+XUR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida732.png
+124/159
+OFU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida734.png
+120/193
+KDC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida736.png
+013/149
+OTD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida737.png
+013/141
+GRO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida739.png
+055/186
+DMC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida741.png
+139/170
+VEB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida743.png
+066/188
+SDR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida744.png
+011/181
+GDP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida745.png
+138/200
+RNU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida746.png
+018/185
+WES * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida747.png
+126/179
+PUT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida748.png
+110/173
+RZE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida751.png
+074/178
+RLW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida752.png
+087/189
+DHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida753.png
+110/150
+EPM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida756.png
+195/200
+SHP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida759.png
+026/180
+HAR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida760.png
+001/176
+KWC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida761.png
+094/102
+XUY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida762.png
+096/123
+VNM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida763.png
+112/147
+AHH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida764.png
+149/158
+ONU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida765.png
+169/192
+ZHV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida766.png
+135/140
+MNL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida767.png
+084/115
+EVY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida768.png
+140/183
+KVN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida769.png
+129/174
+DMZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida770.png
+184/197
+UNK* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida771.png
+072/167
+TPN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida773.png
+116/170
+FPH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida774.png
+190/194
+OSL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida775.png
+164/188
+LMR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida776.png
+154/173
+EVE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida777.png
+089/190
+KBN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida778.png
+123/131
+UNK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida779.png
+148/167
+LLO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida780.png
+017/121
+UVL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida781.png
+146/183
+YHM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida782.png
+158/172
+ZBT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida784.png
+080/187
+VVG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida787.png
+163/193
+JNU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida788.png
+196/197
+CWP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida789.png
+085/194
+SBO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida790.png
+178/193
+CAZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida791.png
+152/195
+AMZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida792.png
+065/137
+MZF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida793.png
+141/199
+ZCG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida794.png
+188/198
+TRH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida796.png
+117/155
+XZG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida799.png
+010/158
+033 * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida800.png
+004/148
+MGJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida801.png
+095/135
+XRO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida802.png
+037/165
+ADZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida803.png
+109/158
+KZN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida804.png
+116/166
+DAC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida805.png
+140/164
+WQG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida806.png
+128/163
+JDU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida807.png
+016/119
+LHC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida808.png
+031/195
+LHR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida809.png
+075/127
+XTT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida810.png
+012/190
+PRE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida811.png
+067/183
+WKA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida812.png
+156/173
+JGO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida814.png
+064/128
+EBH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida815.png
+118/151
+QWC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida816.png
+130/189
+DMJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida818.png
+160/172
+LAS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida819.png
+038/157
+STD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida820.png
+123/166
+PNH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida823.png
+016/130
+TGM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida825.png
+024/109
+NRF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida826.png
+139/151
+RJW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida827.png
+074/174
+SRP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida828.png
+037/112
+TKP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida830.png
+124/200
+VSR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida831.png
+118/178
+DOX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida832.png
+086/148
+0A0 * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida833.png
+193/199
+VAB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida834.png
+150/195
+AGN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida835.png
+142/151
+XFR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida836.png
+195/198
+BJO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida837.png
+059/176
+FCH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida840.png
+172/185
+FUS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida843.png
+090/191
+HDQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida844.png
+164/200
+NVH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida845.png
+094/143
+YCW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida846.png
+115/192
+LHM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida848.png
+196/198
+ZNF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida849.png
+184/188
+ZTK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida851.png
+135/189
+MDZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida854.png
+086/127
+TVK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida855.png
+184/199
+HYC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida858.png
+168/173
+YYM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida859.png
+143/199
+UGB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida860.png
+051/117
+OSF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida861.png
+082/117
+DNF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida862.png
+176/188
+IWU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida863.png
+013/139
+YZG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida864.png
+026/176
+OCE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida865.png
+116/125
+SER * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida866.png
+087/181
+GCD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida867.png
+114/169
+CXE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida869.png
+186/198
+OPB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida870.png
+064/193
+VPB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida872.png
+179/188
+YOD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida873.png
+104/140
+FUV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida874.png
+088/146
+QQB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida875.png
+180/199
+JUO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida876.png
+154/177
+RFG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida877.png
+197/199
+YDL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida878.png
+107/199
+NOL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida879.png
+187/193
+ROH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida880.png
+069/192
+OVB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida881.png
+026/127
+OWR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida882.png
+041/188
+ZNR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida884.png
+045/115
+BZU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida885.png
+122/183
+YCH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida886.png
+045/105
+NFE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida887.png
+151/152
+CWI * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida888.png
+125/169
+YMM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida889.png
+164/186
+WVG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida890.png
+036/145
+WDG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida891.png
+096/150
+HGF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida892.png
+014/172
+ZEH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida893.png
+139/153
+PYM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida895.png
+192/194
+BRE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida896.png
+123/169
+EWW * Eb
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida897.png
+200/200
+PPH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida898.png
+160/162
+YWO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida902.png
+111/113
+KKS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida903.png
+022/143
+CXE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida904.png
+072/133
+GSN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida905.png
+045/182
+SDK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida906.png
+003/163
+LOG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida907.png
+131/184
+HJN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida908.png
+181/187
+PYM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida909.png
+176/179
+VVX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida910.png
+190/198
+PTZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida911.png
+160/195
+PBY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida912.png
+193/195
+AVN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida913.png
+133/171
+URQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida914.png
+030/144
+NUA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida915.png
+174/199
+HHY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida916.png
+060/175
+XGS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida917.png
+050/197
+LYO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida918.png
+152/200
+TCU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida920.png
+006/200
+IWF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida921.png
+134/158
+ANP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida922.png
+155/187
+PBU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida923.png
+113/182
+WRL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida924.png
+130/150
+KQQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida925.png
+117/133
+MLD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida926.png
+087/169
+XUM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida927.png
+136/141
+UMU * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida929.png
+186/197
+UQP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida930.png
+118/122
+DDB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida931.png
+020/108
+GSV * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida933.png
+015/103
+RZC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida934.png
+017/108
+AWL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida935.png
+121/151
+GUR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida936.png
+184/198
+VDE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida938.png
+052/133
+KWJ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida939.png
+162/183
+ZNR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida940.png
+163/197
+UEF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida941.png
+116/167
+UXE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida942.png
+062/101
+FPO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida943.png
+112/118
+UFV* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida944.png
+169/170
+YCN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida947.png
+068/174
+UMM * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida949.png
+103/169
+MKB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida950.png
+037/155
+SHR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida952.png
+056/165
+HHS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida953.png
+013/190
+XAM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida954.png
+104/148
+MNS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida956.png
+129/191
+XEK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida958.png
+114/197
+MSN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida959.png
+187/188
+DZP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida960.png
+004/171
+PTB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida962.png
+127/189
+REH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida965.png
+149/167
+RXS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida966.png
+164/198
+AEN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida967.png
+157/197
+VFA* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida968.png
+157/166
+VGG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida969.png
+060/138
+WHM * Eh
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida970.png
+127/153
+WXF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida971.png
+020/172
+ROB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida972.png
+026/132
+DQG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida973.png
+025/163
+TDP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida975.png
+180/198
+WYB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida976.png
+021/198
+NLP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida978.png
+145/151
+YRC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida979.png
+197/197
+PKY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida981.png
+144/174
+ZWX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida982.png
+039/185
+PMX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida983.png
+160/169
+FOL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida985.png
+136/145
+BKC * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida987.png
+034/149
+SLH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida988.png
+110/174
+RVW * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida989.png
+083/197
+KWF * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida990.png
+184/189
+OJD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida991.png
+137/140
+MFY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida993.png
+158/168
+JGO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida995.png
+198/198
+APM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida996.png
+195/200
+HMO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida997.png
+175/197
+HBT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida998.png
+073/112
+ARE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida999.png
+029/178
+AYD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+TTG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+RHN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida3.png
+200/200
+NGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
+143/184
+QHD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida7.png
+057/134
+GLP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida8.png
+150/170
+JMX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida9.png
+084/179
+AWD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida10.png
+181/181
+PPZ* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida11.png
+002/178
+GKM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida12.png
+200/200
+GEB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida13.png
+032/150
+TRM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida16.png
+128/166
+ACK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida17.png
+108/158
+YGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida19.png
+027/139
+PFD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida21.png
+167/199
+MRY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida23.png
+061/160
+XQK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida24.png
+094/132
+WST * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida25.png
+181/197
+XJO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida26.png
+197/197
+TFH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida27.png
+133/136
+NQY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida28.png
+094/200
+LNY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida29.png
+154/196
+RZX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida30.png
+020/169
+605 * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida32.png
+162/186
+RMM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida33.png
+049/180
+ODP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida34.png
+097/198
+UFD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+TTG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+RHN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida3.png
+200/200
+NGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
+143/184
+QHD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida7.png
+057/134
+GLP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida8.png
+150/170
+JMX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida9.png
+084/179
+AWD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida10.png
+181/181
+PPZ* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida11.png
+002/178
+GKM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida12.png
+200/200
+GEB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida13.png
+032/150
+TRM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida16.png
+128/166
+ACK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida17.png
+108/158
+YGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida19.png
+027/139
+PFD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida21.png
+167/199
+MRY * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida23.png
+061/160
+XQK * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida24.png
+094/132
+WST * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida25.png
+181/197
+XJO * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida26.png
+197/197
+TFH * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+TTG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+RHN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+TTG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+RHN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida3.png
+200/200
+NGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
+143/184
+QHD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida7.png
+057/134
+GLP * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida8.png
+150/170
+JMX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida9.png
+084/179
+AWD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida10.png
+181/181
+PPZ* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida11.png
+002/178
+GKM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida12.png
+200/200
+GEB * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida13.png
+032/150
+TRM * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+TTG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida1.png
+003/175
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida3.png
+200/200
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
+143/184
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida1.png
+003/175
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida3.png
+200/200
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
+143/184
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida5.png
+059/125
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida6.png
+166/178
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida7.png
+057/134
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida0.png
+184/185
+TTG * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida2.png
+075/149
+RHN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida3.png
+200/200
+NGZ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
+143/184
+QHD * EN
