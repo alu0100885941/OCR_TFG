@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = (7,7)
 import keras
 from keras.layers import Convolution2D, Activation, MaxPooling2D, Dropout, LSTM, Flatten, TimeDistributed, Reshape
-
+from os import listdir
+from os import walk
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout
@@ -22,15 +23,23 @@ dictionary = letras.append(numbers)
 nb_classes = 10
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 X_train= []
-for i in range(0, 1000):
-    img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/test%d.png" % i)
-    #print(img)
+Y_train= []
+for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples"):
+
+    #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
+    img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/%s"%file)
     X_train.append(img)
+for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers"):
+
+    #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
+    file=open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers/%s"%file)
+    str=file.read
+    Y_train.append(str)
 
 
 
 
-img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/test1.png")
+img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/test1.png")
 plt.imshow(X_train[0])
 plt.show()
 cv2.waitKey(0)
@@ -47,30 +56,29 @@ for i in range(9):
 print(X_train.shape)
 #X_train = X_train.reshape(1000, X_train[0].shape[0], X_train[0].shape[1], 1)
 #X_test  = X_test.reshape(1000, X_train[0].shape[0], X_train[0].shape[1], 1)
-X_train = X_train.astype('float32')
-X_test  = X_test.astype('float32')
-X_train /= 255
-X_test  /= 255
+#X_train = X_train.astype('float32')
+#X_test  = X_test.astype('float32')
+#X_train /= 255
+#X_test  /= 255
 print("Trainning matrix shape: ", X_train.shape)
 print("Testing matrix shape: ", X_test.shape)
 
 y_train = np_utils.to_categorical(y_train, nb_classes)
 y_test = np_utils.to_categorical(y_test, nb_classes)
 
+print(X_train[0].shape[0])
+print(X_train[0].shape[1])
 
 model = Sequential()
-model.add(Conv2D(16, (3,3), activation="relu", input_shape=(X_train[0].shape[0], X_train[0].shape[1], 3)))
+model.add(Conv2D(256, (3,3), activation="relu", input_shape=(X_train[0].shape[1], X_train[0].shape[0], 3)))
 model.add(MaxPooling2D(pool_size=(2,2), strides=(2,2)))
-model.add(Conv2D(16, (5,5), activation="relu"))
+model.add(Conv2D(512, (5,5), activation="relu"))
 model.add(MaxPooling2D(pool_size=(2,2)))
-
-
-
-model.summary()
+#model.add(Reshape((16, 12, 128)))
 model.add(TimeDistributed(Flatten()))
-model.add(Dense(32, activation="relu"))
+
 model.add(LSTM(512,return_sequences=True))
-model.add(Dense(28, activation="softmax"))
+model.add(Dense(37, activation="softmax"))
 model.summary()
 #model.add(Dense(512, input_dim=784))
 #model.add(Activation('relu'))
