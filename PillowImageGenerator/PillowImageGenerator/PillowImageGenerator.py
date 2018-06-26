@@ -12,7 +12,7 @@ import numpy as np
 import imutils
 iter=0
 iter2=0
-n_pruebas= 10
+n_pruebas= 400
 
 def noise_generator (noise_type,image):
     """
@@ -149,16 +149,100 @@ def create_dataTraining(iter):
     file.write('0%d/%d\n%s * EN' % (n1,n2, string))
     file.close
 
+def create_dataletrasTrain(iter):
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    string=""
+    string= rand.choice(str.ascii_letters)
+    string = string.upper()
+    draw.text((10,10), '%s' % (string), (2,2,2), font=font)
+    img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
+    img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
+    noised_img=sp_noise(img,0.01)
+    rot_ang= rand.randint(-5,5)
+    noised_img = imutils.rotate(noised_img,rot_ang)
+    cv2.imwrite("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Modified/test%d.png" %(iter), noised_img)
+    file = open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers/ans%d.txt" %(iter), "w")
+    file.write('%s' % (string))
+    file.close
+
+def create_dataNumerosTrain(iter):
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    n1= rand.randint(0,9)
+    draw.text((10,10), '%d' % (n1), (2,2,2), font=font)
+    img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
+    img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
+    noised_img=sp_noise(img,0.01)
+    rot_ang= rand.randint(-5,5)
+    noised_img = imutils.rotate(noised_img,rot_ang)
+    cv2.imwrite("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Modified/test%d.png" %(iter), noised_img)
+    file = open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers/ans%d.txt" %(iter), "w")
+    file.write('%d' % (n1))
+    file.close
+
+def create_dataletrasTest(iter):
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    string=""
+    string= rand.choice(str.ascii_letters)
+    string = string.upper()
+    draw.text((10,10), '%s' % (string), (2,2,2), font=font)
+    img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
+    img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
+    noised_img=sp_noise(img,0.01)
+    rot_ang= rand.randint(-5,5)
+    noised_img = imutils.rotate(noised_img,rot_ang)
+    cv2.imwrite("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Modified/test%d.png" %(iter), noised_img)
+    file = open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers/ans%d.txt" %(iter), "w")
+    file.write('%s' % (string))
+    file.close
+
+def create_dataNumerosTest(iter):
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    n1= rand.randint(0,9)
+    draw.text((10,10), '%d' % (n1), (2,2,2), font=font)
+    img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
+    img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
+    noised_img=sp_noise(img,0.01)
+    rot_ang= rand.randint(-5,5)
+    noised_img = imutils.rotate(noised_img,rot_ang)
+    cv2.imwrite("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Modified/test%d.png" %(iter), noised_img)
+    file = open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers/ans%d.txt" %(iter), "w")
+    file.write('%d' % (n1))
+    file.close
+
+def arbiter_Train(iter, sub_iter):
+    if(sub_iter%2==0):
+        create_dataletrasTrain(iter)
+    else:
+        create_dataNumerosTrain(iter)
+
+def arbiter_Test(iter, sub_iter):
+    if(sub_iter%2==0):
+        create_dataletrasTest(iter)
+    else:
+        create_dataNumerosTest(iter)
 
 for i in range(0, n_pruebas):
+ 
     for j in range(0,80):
-        create_dataTraining(iter)
+        #create_dataTraining(iter, j)
+        arbiter_Train(iter,j)
         iter=iter+1
 
     for j in range(0,20):
-        create_imgText(iter2)
+        #create_imgText(iter2, j)
+        arbiter_Test(iter2, j)
         iter2=iter2+1
-        
+    print("Prueba ", i)
+                
+   
 
 
 
