@@ -21,9 +21,12 @@ letras = list(string.ascii_uppercase)
 numbers = list(range(0-9))
 dictionary = letras.append(numbers)
 nb_classes = 10
-(X_train, y_train), (X_test, y_test) = mnist.load_data()
+
 X_train= []
 Y_train= []
+X_test =[]
+Y_test= []
+nb_classes = 37
 for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples"):
 
     #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
@@ -36,6 +39,18 @@ for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Tra
     str=file.read
     Y_train.append(str)
 
+for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples"):
+
+    #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
+    img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/%s"%file)
+    X_test.append(img)
+for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers"):
+
+    #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
+    file=open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers/%s"%file)
+    str=file.read
+    Y_test.append(str)
+
 
 
 
@@ -43,58 +58,72 @@ img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/te
 plt.imshow(X_train[0])
 plt.show()
 cv2.waitKey(0)
-print(X_train[0].shape)
+#print(X_train[0].shape)
 X_train = np.asarray(X_train)
-print("X_train original shape", X_train.shape)
-print("y_train original shape", y_train.shape)
+Y_train = np.asarray(Y_train)
+X_test = np.asarray(X_test)
+Y_train = np.asarray(Y_test)
 
-for i in range(9):
-    plt.subplot(3,3, i+1)
-    plt.imshow(X_train[i], cmap= 'gray',interpolation='none')
-    plt.title("Class {}".format(y_train[i]))
-  
+'''
+    #print("X_train original shape", X_train.shape)
+    #print("y_train original shape", Y_train.shape)
+
+        for i in range(9):
+            plt.subplot(3,3, i+1)
+            plt.imshow(X_train[i], cmap= 'gray',interpolation='none')
+            plt.title("Class {}".format(y_train[i]))
+ 
+    #print(X_train.shape)
+    #X_train = X_train.reshape(1000, X_train[0].shape[0], X_train[0].shape[1], 1)
+    #X_test  = X_test.reshape(1000, X_train[0].shape[0], X_train[0].shape[1], 1)
+    #X_train = X_train.astype('float32')
+    #X_test  = X_test.astype('float32')
+    #X_train /= 255
+    #X_test  /= 255
+    #print("Trainning matrix shape: ", X_train.shape)
+    #print("Testing matrix shape: ", X_test.shape)
+    
+    #print(X_train[0].shape[0])
+    #print(X_train[0].shape[1])
+'''
+
+
 print(X_train.shape)
-#X_train = X_train.reshape(1000, X_train[0].shape[0], X_train[0].shape[1], 1)
-#X_test  = X_test.reshape(1000, X_train[0].shape[0], X_train[0].shape[1], 1)
-#X_train = X_train.astype('float32')
-#X_test  = X_test.astype('float32')
-#X_train /= 255
-#X_test  /= 255
-print("Trainning matrix shape: ", X_train.shape)
-print("Testing matrix shape: ", X_test.shape)
 
-y_train = np_utils.to_categorical(y_train, nb_classes)
-y_test = np_utils.to_categorical(y_test, nb_classes)
-
-print(X_train[0].shape[0])
-print(X_train[0].shape[1])
+#Y_train = np_utils.to_categorical(Y_train, nb_classes)
+#Y_test = np_utils.to_categorical(Y_test, nb_classes)
 
 model = Sequential()
-model.add(Conv2D(256, (3,3), activation="relu", input_shape=(X_train[0].shape[1], X_train[0].shape[0], 3)))
+model.add(Conv2D(256, (3,3), activation="relu", input_shape=(X_train[0].shape[0], X_train[0].shape[1], 3)))
 model.add(MaxPooling2D(pool_size=(2,2), strides=(2,2)))
 model.add(Conv2D(512, (5,5), activation="relu"))
 model.add(MaxPooling2D(pool_size=(2,2)))
 #model.add(Reshape((16, 12, 128)))
 model.add(TimeDistributed(Flatten()))
-
 model.add(LSTM(512,return_sequences=True))
+model.add(Flatten())
+#model.add(Reshape((37,-1)))
 model.add(Dense(37, activation="softmax"))
 model.summary()
-#model.add(Dense(512, input_dim=784))
-#model.add(Activation('relu'))
-#model.add(Dropout(0.2))
-#model.add(Dense(512))
-#model.add(Activation('relu'))
-#model.add(Dropout(0.2))
-#model.add(Dense(10))
-#model.add(Activation('softmax'))
-#model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+'''
+    #model.add(Dense(512, input_dim=784))
+    #model.add(Activation('relu'))
+    #model.add(Dropout(0.2))
+    #model.add(Dense(512))
+    #model.add(Activation('relu'))
+    #model.add(Dropout(0.2))
+    #model.add(Dense(10))
+    #model.add(Activation('softmax'))
+    #model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+'''
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-#model.fit(X_train, y_train, batch_size=128, epoch=4, show_acuracy=True, verbose=1, validation_data=(X_test, y_test))
-#model.fit(X_train, y_train, 128, 4, 1, validation_data=(X_test, y_test))
+model.fit(X_train, Y_train, verbose=1, validation_data=(X_test, Y_test))
+#model.fit(X_train, Y_train, 128, 4, 1, validation_data=(X_test, Y_test))
 
-            #score = model.evaluate(X_test, y_test, verbose=0)
+score = model.evaluate(X_test, y_test, verbose=0)
+print('Test score:', score[0])
+print('Test acuracy: ', score[1])
 '''
             print('Test score:', score[0])
             print('Test acuracy: ', score[1])
