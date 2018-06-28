@@ -12,7 +12,7 @@ import numpy as np
 import imutils
 iter=0
 iter2=0
-n_pruebas= 400
+n_pruebas= 100
 
 def noise_generator (noise_type,image):
     """
@@ -83,9 +83,9 @@ def sp_noise(image,prob):
     return output
 
 def create_imgText(iter):
-    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2.png")
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/blanco_grande.jpg")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 40)
     n1= rand.randint(0,200)
     n2= rand.randint(n1,200)
     if(n2 < 100):
@@ -96,21 +96,21 @@ def create_imgText(iter):
         string+= rand.choice(str.ascii_letters)
     string = string.upper()
     if(n1<10):
-        draw.text((2,2), '00%d/%d\n%s * EN' % (n1,n2, string), (0,0,0), font=font)
+        draw.text((2,2), ' 00%d/%d\n %s * EN' % (n1,n2, string), (0,0,0), font=font)
     elif(n1 < 100):
-        draw.text((2,2), '0%d/%d\n%s * EN' % (n1,n2, string), (0,0,0), font=font)
+        draw.text((2,2), ' 0%d/%d\n %s * EN' % (n1,n2, string), (0,0,0), font=font)
     else:
-        draw.text((2,2), '%d/%d\n%s * EN' % (n1,n2, string), (0,0,0), font=font)
+        draw.text((2,2), ' %d/%d\n %s * EN' % (n1,n2, string), (0,0,0), font=font)
 
     
-    img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/test%d.png" %(iter))
-    img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/test%d.png" %(iter))
+    img.save("C:/Users/sergm/source/repos/OCRTry/Generadas/Base/test%d.png" %(iter))
+    img= cv2.imread("C:/Users/sergm/source/repos/OCRTry/Generadas/Base/test%d.png" %(iter))
     
     noised_img=sp_noise(img,0.01)
-    rot_ang= rand.randint(-5,5)
+    rot_ang= rand.randint(-3,3)
     noised_img = imutils.rotate(noised_img,rot_ang)
-    cv2.imwrite("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/test%d.png" %(iter), noised_img)
-    file = open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers/ans%d.txt" %(iter), "w")
+    cv2.imwrite("C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test%d.png" %(iter), noised_img)
+    file = open("C:/Users/sergm/source/repos/OCRTry/Generadas/Answers/ans%d.txt" %(iter), "w")
    
     file.write('0%d/%d\n%s * EN' % (n1,n2, string))
     file.close
@@ -150,13 +150,13 @@ def create_dataTraining(iter):
     file.close
 
 def create_dataletrasTrain(iter):
-    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada60.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 25)
     string=""
     string= rand.choice(str.ascii_letters)
     string = string.upper()
-    draw.text((10,10), '%s' % (string), (2,2,2), font=font)
+    draw.text((20,20), '%s' % (string), (2,2,2), font=font)
     img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
     img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
     noised_img=sp_noise(img,0.01)
@@ -168,11 +168,11 @@ def create_dataletrasTrain(iter):
     file.close
 
 def create_dataNumerosTrain(iter):
-    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada60.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 25)
     n1= rand.randint(0,9)
-    draw.text((10,10), '%d' % (n1), (2,2,2), font=font)
+    draw.text((20,20), '%d' % (n1), (2,2,2), font=font)
     img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
     img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/test%d.png" %(iter))
     noised_img=sp_noise(img,0.01)
@@ -184,13 +184,13 @@ def create_dataNumerosTrain(iter):
     file.close
 
 def create_dataletrasTest(iter):
-    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada60.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 25)
     string=""
     string= rand.choice(str.ascii_letters)
     string = string.upper()
-    draw.text((10,10), '%s' % (string), (2,2,2), font=font)
+    draw.text((20,20), '%s' % (string), (2,2,2), font=font)
     img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
     img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
     noised_img=sp_noise(img,0.01)
@@ -202,11 +202,11 @@ def create_dataletrasTest(iter):
     file.close
 
 def create_dataNumerosTest(iter):
-    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada60.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 25)
     n1= rand.randint(0,9)
-    draw.text((10,10), '%d' % (n1), (2,2,2), font=font)
+    draw.text((20,20), '%d' % (n1), (2,2,2), font=font)
     img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
     img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/test%d.png" %(iter))
     noised_img=sp_noise(img,0.01)
@@ -217,6 +217,32 @@ def create_dataNumerosTest(iter):
     file.write('%d' % (n1))
     file.close
 
+
+#-------------------#
+def create_dataNumerosTrain2(iter):
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    n1= rand.randint(0,1)
+    draw.text((10,10), '%d' % (n1), (2,2,2), font=font)
+    img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/NUM/test%d.png" %(iter))
+    img= cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Unmodified/NUM/test%d.png" %(iter))
+
+    file = open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers/NUM/ans%d.txt" %(iter), "w")
+    file.write('%d' % (n1))
+    file.close
+def create_dataNumerosTest2(iter):
+    img = Image.open("C:/Users/sergm/source/repos/PillowImageGenerator/imagen_blanco2_cuadrada.png")
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype("C:/Users/sergm/source/repos/PillowImageGenerator/Relay-Medium.ttf", 15)
+    n1= rand.randint(0,1)
+    draw.text((10,10), '%d' % (n1), (2,2,2), font=font)
+    img.save("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Unmodified/NUM/test%d.png" %(iter))
+
+    file = open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers/NUM/ans%d.txt" %(iter), "w")
+    file.write('%d' % (n1))
+    file.close
+#-------------------#
 def arbiter_Train(iter, sub_iter):
     if(sub_iter%2==0):
         create_dataletrasTrain(iter)
@@ -234,13 +260,17 @@ for i in range(0, n_pruebas):
     for j in range(0,80):
         #create_dataTraining(iter, j)
         arbiter_Train(iter,j)
+        #create_dataNumerosTrain2(iter)
+        
         iter=iter+1
 
     for j in range(0,20):
         #create_imgText(iter2, j)
         arbiter_Test(iter2, j)
+        #create_dataNumerosTest2(iter2)
         iter2=iter2+1
     print("Prueba ", i)
+    #create_imgText(i)
                 
    
 

@@ -2464,3 +2464,359 @@ NGZ * EN
 C:/Users/sergm/source/repos/OCRTry/Generadas/prueba_salida4.png
 143/184
 QHD * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+IN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test2.png
+73/192 -
+CFR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test3.png
+Ella: / ‘
+BlM*‘E§_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test4.png
+171/195
+QKA * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test5.png
+037/112
+BX * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test6.png
+195/198
+wa * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test7.png
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+IN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+176/180 *
+‘OY*EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+548/156
+AKS * EN;
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test12.png
+028/144
+NFT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+IN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+{057/150
+CIN * EN J
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+{057/150
+CIN * EN J
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+{158/161
+USL * EN 1
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+176/180 *
+‘OY*EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+176/180
+AOY*EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+648/156
+AKS * EN 7
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+r05 nso
+CIN * EN J
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+{158/161
+* EN 1
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+3158/16]
+USL * EN_ 1
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+“76/180 ‘
+-* EN 1
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+3176/]80 ‘
+AOY * EN I
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+048/156
+|AKS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+m/Iso
+CIN * EN J
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN J
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_ 1
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+“76/180 ‘
+-* EN 1
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+176/180_‘
+AOY * EN I
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test12.png
+028/144 1
+NFT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test12.png
+028/144 1
+|NFT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+176/180 *
+‘OY*EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+057/1750
+CIN * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+158/16]
+USL * EN_
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+156/1597
+JTQ* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test13.png
+166/173
+wa * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test14.png
+‘122/157
+CDD * EN ‘
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test16.png
+158/167 -
+LPE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test17.png
+125/191 “
+EJT * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test18.png
+042/193
+YND * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test19.png
+077/112
+YES *EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test2.png
+105/184
+GHL * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test20.png
+183/198 '
+ONP ,* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163,
+HRS;* EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+355/163
+HRS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+723/185
+.NHE * a
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+355/163
+HRS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163
+HRS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+156/159
+JTQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163
+HRS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+156/159
+JTQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163
+HRS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+156/159
+JTQ * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test0.png
+155/163
+HRS * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test1.png
+125/185
+NHE * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test10.png
+031/164
+ZTR * EN
+C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/test11.png
+156/159
+JTQ * EN
