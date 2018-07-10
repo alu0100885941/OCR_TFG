@@ -19,13 +19,38 @@ from keras.layers.core import Dense, Dropout, Activation
 from keras.utils import np_utils
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
-import cv2
 import imgaug
+import keras
+import tensorflow as tf
+from os.path import join
+import json
+import random
+import itertools
+import re
+import datetime
+#import cairocffi as cairo
+#import editdistance
+from keras.models import model_from_json
+from scipy import ndimage
+import pylab
+import matplotlib.gridspec as gridspec
+from keras import backend as K
+from keras.layers.convolutional import Conv2D, MaxPooling2D
+from keras.layers import Input, Dense, Activation
+from keras.layers import Reshape, Lambda
+from keras.layers.merge import add, concatenate
+from keras.models import Model, load_model
+from keras.layers.recurrent import GRU
+from keras.optimizers import SGD
+from keras.utils.data_utils import get_file
+from keras.preprocessing import image
+import keras.callbacks
+from scipy.misc import imsave
+from tkinter.filedialog import askdirectory
 
+from collections import Counter
 pytesseract.pytesseract.tesseract_cmd= "C:/Program Files (x86)/Tesseract-OCR/tesseract.exe"
-#Leer imágenes
-#img = cv2.imread("C:/Users/sergm/source/repos/OCRTry/prueba.png")
-#imgGris= cv2.imread("C:/Users/sergm/source/repos/OCRTry/prueba.png", 0)
+
 BLACK= [0,0,0]
 WHITE= [255,255,255]
 plt.rcParams['figure.figsize'] = (7,7)
@@ -35,38 +60,6 @@ X_train= []
 Y_train= []
 X_test =[]
 Y_test= []
-#api = tesseract.TessBaseApi()
-#Escribir Imágenes
-'''
-    cv2.imwrite("C:/Users/sergm/source/repos/OCRTry/pruebaGris.png", imgGris)
-
-    #img[1:200]= [255,255,255]
-
-    cv2.imwrite("C:/Users/sergm/source/repos/OCRTry/pruebaMachaque.png", img)
-    #Propiedades de imágen
-    print(img.shape)
-    magicTG = cv2.imread("C:/Users/sergm/source/repos/OCRTry/rules_lawyer_judge_promo_january_2018.jpg")
-    #Región de Imagen
-    title = magicTG[1:100, 1:magicTG.shape[1]-40]
-    cv2.imwrite("C:/Users/sergm/source/repos/OCRTry/pruebaRecorte.png", title)
-    #Cambiar colores a gusto de posiciones
-    img[:,:,1]=140
-    cv2.imwrite("C:/Users/sergm/source/repos/OCRTry/pruebaModificada.png", img)
-'''
-
-#Trabajar con vectores 
-'''
-    imgGris.itemset((10,10,2),100)
-
-    x = np.random.randint(9, size=(3, 3))
-    print(x)
-    x.itemset(4,0)
-    print("-----------------")
-    print(x)
-    x.itemset((2,2), 9)
-    print("-----------------")
-    print(x)
-'''
 
 
 
@@ -107,7 +100,7 @@ def skewAndCrop(input, box):
     size_box = list(box[1])
     center = box[0]
     box=list(box)
-    print("entrando a cortar")
+    #print("entrando a cortar")
     
 
    # if(angle_box < 45):
@@ -117,23 +110,47 @@ def skewAndCrop(input, box):
         #size_box[0]=aux1
         #size_box[1]=aux2
 
-    angle_box += 90
-    print(angle_box)
-    if(angle_box == 90):
-        angle_box= angle_box-90
+    #angle_box += 90
+    #print(angle_box)
+    if(angle_box > -45):
+        angle_box= angle_box
         transform = cv2.getRotationMatrix2D(box[0], angle_box, 1.0)
         input = cv2.warpAffine(input, transform, (input.shape[1], input.shape[0]), cv2.INTER_CUBIC)
     
         cropped = cv2.getRectSubPix(input, (int(size_box[0]),int(size_box[1])), box[0])
-        cropped = cv2.copyMakeBorder(cropped, 2,2,2,2,cv2.BORDER_CONSTANT, value=BLACK)
+        #cropped = cv2.copyMakeBorder(cropped, 2,2,2,2,cv2.BORDER_CONSTANT, value=BLACK)
         return cropped
     else:
+        angle_box += 90
         transform = cv2.getRotationMatrix2D(box[0], angle_box, 1.0)
         input = cv2.warpAffine(input, transform, (input.shape[1], input.shape[0]), cv2.INTER_CUBIC)
     
         cropped = cv2.getRectSubPix(input, (int(size_box[1]),int(size_box[0])), box[0])
-        cropped = cv2.copyMakeBorder(cropped, 2,2,2,2,cv2.BORDER_CONSTANT, value=BLACK)
+        #cropped = cv2.copyMakeBorder(cropped, 2,2,2,2,cv2.BORDER_CONSTANT, value=BLACK)
         return cropped
+   
+def skewAndCropWithCords(input, box):
+    angle_box = box[2]
+    size_box = list(box[1])
+    center = box[0]
+    box=list(box)
+    data=[]
+    if(angle_box > -45):
+        angle_box= angle_box
+        transform = cv2.getRotationMatrix2D(box[0], angle_box, 1.0)
+        input = cv2.warpAffine(input, transform, (input.shape[1], input.shape[0]), cv2.INTER_CUBIC)    
+        cropped = cv2.getRectSubPix(input, (int(size_box[0]),int(size_box[1])), box[0])
+        data.append(cropped)
+        data.append(box[0])
+        return data
+    else:
+        angle_box += 90
+        transform = cv2.getRotationMatrix2D(box[0], angle_box, 1.0)
+        input = cv2.warpAffine(input, transform, (input.shape[1], input.shape[0]), cv2.INTER_CUBIC)
+        cropped = cv2.getRectSubPix(input, (int(size_box[1]),int(size_box[0])), box[0])
+        data.append(cropped)
+        data.append(box[0])
+        return data
     
 
 def identifyTextTesseract(input):
@@ -156,44 +173,20 @@ def RoInterestCartasReales(input):
 
 
 def RoInterestPruebas(input):
-    h1= input.shape[0]-1 
-    h= int(4*(h1/10))
-    #print(h1)
-    l1= input.shape[1]-1
-    l= int(l1/3)-1
-    #print(l1)
-    output= input[1:h, 1:l]
-    #MostrarImg(output)
-    mid= int(output.shape[0]/2)
-    cut_l1= int(11*output.shape[1]/30)
-    cut_l2= int(14*output.shape[1]/30)
-    first_line= output[1:mid, 1:l]
-    second_line= output[mid:(mid*2)-2, 1:l]
-    #MostrarImg(first_line)
-    #MostrarImg(second_line)
-    #return output, first_line, second_line
+    ten_perc_h= int(input.shape[0]/20)
+    ten_perc_l= int(input.shape[1]/20)
+    output= input[ten_perc_h:19*ten_perc_h, ten_perc_l:19*ten_perc_l]
+
     return output
 
 def OCR(imgCarta, name):
+        print("OCR-COMPUTER VISION")
         file = open("output.txt", "a")
-        #imgCarta = RoInterestCartasReales(imgCarta)
-        #imgCarta = RoInterestPruebas(imgCarta)
+        imgCarta = RoInterestPruebas(imgCarta)
         binarizada = Binarization(imgCarta)
-
         kernel = cv2.getStructuringElement(cv2.MORPH_CROSS, (3,3))
-
-
-        MostrarImg(binarizada)
-        eroded = cv2.erode(binarizada, kernel, 1)
-        eroded = cv2.dilate(eroded, kernel, 2)
-        dilated = cv2.dilate(eroded, kernel, iterations=10)
-        #dilated = cv2.dilate(binarizada, kernel, iterations=15)
-        MostrarImg(eroded)
-        MostrarImg(dilated)
-        dilated = cv2.cvtColor(dilated, cv2.COLOR_BGR2GRAY)
-        
-        imgCount, cnts, h = cv2.findContours(dilated, cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
-
+        dilated = cv2.cvtColor(binarizada, cv2.COLOR_BGR2GRAY)   
+        imgCount, cnts, h = cv2.findContours(dilated, cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_TC89_KCOS)
         areas = []
 
 
@@ -218,190 +211,190 @@ def OCR(imgCarta, name):
         for i in range(len(areas)):
             box= cv2.boxPoints(areas[i])
             box= np.int0(box)
-            cv2.drawContours(imgCarta,[box],0,(0,0,255),2)
-            
-            
-            print(eroded.shape)
-            ten_perc_h= int(eroded.shape[0]/20)
-            ten_perc_l= int(eroded.shape[1]/20)
-            eroded= eroded[ten_perc_h:19*ten_perc_h, ten_perc_l:19*ten_perc_l]
-            
-            
-            MostrarImg(eroded)
-            cropped = skewAndCrop(imgCarta, areas[i])
-            text = identifyTextTesseract(eroded)
+            print(binarizada.shape)
+            ten_perc_h= int(binarizada.shape[0]/20)
+            ten_perc_l= int(binarizada.shape[1]/20)
+            eroded= binarizada[ten_perc_h:19*ten_perc_h, ten_perc_l:19*ten_perc_l]
+            cropped = skewAndCrop(binarizada, areas[i])
+            text = identifyTextTesseract(binarizada)
             print(text)
-            MostrarImg(cropped)
+            MostrarImg(eroded)
 
-
-            #text = identifyTextTesseract(imgCarta)
-            #print(text)
-
-            #MostrarImg(imgCarta)
-            file.write(name)
-            file.write("\n")
-            file.write(text)
-            file.write("\n")
         if (len(areas)==0):
-            print(eroded.shape)
-            ten_perc_h= int(eroded.shape[0]/20)
-            ten_perc_l= int(eroded.shape[1]/20)
-            eroded= eroded[ten_perc_h:19*ten_perc_h, ten_perc_l:19*ten_perc_l]
+            text = identifyTextTesseract(imgCarta)
             
+        text = identifyTextTesseract(imgCarta)
+        
+        return text
+           
             
-            MostrarImg(eroded)
-            
-            text = identifyTextTesseract(eroded)
-            print(text)
-            
-
+def sec_elem(s):
+    
+    return s[1][1] 
+def fst_elem(s):
+    
+    return s[1][0] 
 
 def PrepararEntradas(input, name):
     print("----- PREPARANDO -----")
-    #binarizada = Binarization(imgCarta)
-
+    ten_perc_h= int(input.shape[0]/20)
+    ten_perc_l= int(input.shape[1]/20)
+    input= input[ten_perc_h:19*ten_perc_h, ten_perc_l:19*ten_perc_l]
     kernel = cv2.getStructuringElement(cv2.MORPH_CROSS, (3,3))
-
-
-    #MostrarImg(binarizada)
-    eroded = cv2.erode(input, kernel, 1)
-    eroded = cv2.dilate(eroded, kernel, 2)
-    dilated = cv2.dilate(eroded, kernel, iterations=10)
-    ten_perc_h= int(eroded.shape[0]/20)
-    ten_perc_l= int(eroded.shape[1]/20)
-    eroded= eroded[ten_perc_h:19*ten_perc_h, ten_perc_l:19*ten_perc_l]
-    mid= int(eroded.shape[0]/2)  
-    l1= eroded.shape[1]-1
-    l= int(l1/2)-1
-    cut_l1= int(11*eroded.shape[1]/30)
-    cut_l2= int(14*eroded.shape[1]/30)
-    first_line= eroded[1:mid, 1:cut_l1]
-    second_line= eroded[mid:(mid*2)-2, 1:l]        
+    bw= Binarization(input)
+    eroded= bw
+    copy= eroded
+    eroded = input      
     elements=[]
-    print(first_line.shape)
-    print(second_line.shape)
-    ll1= first_line.shape[1]
-    ll2= int(second_line.shape[1]/30)
-    l2_e1= second_line[1:l, 1:15*ll2-1]
-    l2_e2= second_line[1:l, 16*ll2-1:30*ll2-1]
-    l2_e3= second_line[1:l, 29*ll2-1:l-1]
-    MostrarImg(first_line)
-    cv2.imwrite('l2_e1.png',l2_e1)
-    cv2.imwrite('l2_e2.png',l2_e2)
-    cv2.imwrite('l2_e3.png',l2_e3)
-    old_l2_e1 = Image.open('l2_e1.png')
-    old_l2_e2 = Image.open('l2_e2.png')
-    old_l2_e3 = Image.open('l2_e3.png')
-    old_size1= l2_e1.shape
-    old_size2= l2_e2.shape
-    old_size3= l2_e3.shape
-    print("-----")
-    print(old_size1)
+    cv2.imwrite('bw.png', copy)
+    id_tot=cv2.imread('bw.png', cv2.CV_8UC1)
+    retval, id_tot= cv2.threshold(id_tot, 0, 255, cv2.THRESH_OTSU)
+    imgCount, cnts, h = cv2.findContours(id_tot, cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_TC89_KCOS)
     new_size=(60,60)
-   
+    areas = []
 
-    new_l2_e1 = cv2.copyMakeBorder(l2_e1, 9, 9,16, 16, cv2.BORDER_CONSTANT, value=WHITE)
-    new_l2_e2 = cv2.copyMakeBorder(l2_e2, 9, 9,16, 16, cv2.BORDER_CONSTANT, value=WHITE)
-    new_l2_e3 = cv2.copyMakeBorder(l2_e3, 9, 9,16, 16, cv2.BORDER_CONSTANT, value=WHITE)
-    old_l2_e2 = Image.open('l2_e2.png')
-    old_l2_e3 = Image.open('l2_e3.png')
-    MostrarImg(new_l2_e1)
-    MostrarImg(new_l2_e2)
-    MostrarImg(new_l2_e3)
-    elements.append(first_line)
-    elements.append(new_l2_e1)
-    elements.append(new_l2_e2)
-    elements.append(new_l2_e3)
-'''
-        first_line = cv2.dilate(first_line, kernel, 2)
-        MostrarImg(cv2.convertScaleAbs(first_line))
-        cv2.imwrite('first_line.png', first_line)
-        #cv2.imwrite('second_line.png', second_line)
-        first_line=cv2.imread('first_line.png', cv2.CV_8UC1)
+
+
+
+ 
+    for i in range(len(cnts)):
+        box = cv2.minAreaRect(cnts[i])
     
-        retval, first_line= cv2.threshold(first_line, 0, 255, cv2.THRESH_OTSU)
+        if(box[1][0] < 5 or box[1][1] < 5):
+            continue
+        angle_box = box[2]
+        if(angle_box < -45.0):
+            proportion = box[1][0] / box[1][1]
+        else:
+            proportion = box[1][1] /  box[1][0]
 
-        imgCount, cnts, h = cv2.findContours(first_line, cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
-        #cv2.imwrite('first_line.png', first_line)
-        #first_line = cv2.imread('first_line.png')
-        areas = []
+        areas.append(box)
 
-        print(len(cnts))
-        for i in range(len(cnts)):
-            box = cv2.minAreaRect(cnts[i])
-    
-            if(box[1][0] < 20 or box[1][1] < 20):
-                continue
-            angle_box = box[2]
-            if(angle_box < -45.0):
-                proportion = box[1][0] / box[1][1]
+    for i in range(len(areas)):
+        box= cv2.boxPoints(areas[i])
+        box= np.int0(box)
+        cropped = skewAndCropWithCords(input, areas[i])
+        actual_x= cropped[0].shape[1]
+        actual_y= cropped[0].shape[0]
+        rest_x= 60-actual_x
+        rest_y= 60-actual_y
+        if(rest_y%2 ==0):
+            rest_y=int(rest_y/2)
+            if(rest_x%2 ==0):
+                rest_x=int(rest_x/2)
+                cropped[0] = cv2.copyMakeBorder(cropped[0], rest_y, rest_y,rest_x, rest_x, cv2.BORDER_CONSTANT, value=WHITE)
             else:
-                proportion = box[1][1] /  box[1][0]
-            if(proportion > 0.5):
-                continue
-            areas.append(box)
+                rest_x=rest_x-1
+                rest_x=int(rest_x/2)
+                cropped[0] = cv2.copyMakeBorder(cropped[0], rest_y, rest_y,rest_x, rest_x+1, cv2.BORDER_CONSTANT, value=WHITE)
+        else:
+            rest_y=rest_y-1
+            rest_y=int(rest_y/2)
+            if(rest_x%2 ==0):
+                rest_x=int(rest_x/2)
+                cropped[0] = cv2.copyMakeBorder(cropped[0], rest_y+1, rest_y,rest_x, rest_x, cv2.BORDER_CONSTANT, value=WHITE)
+            else:
+                rest_x=rest_x-1
+                rest_x=int(rest_x/2)
+                cropped[0] = cv2.copyMakeBorder(cropped[0], rest_y+1, rest_y,rest_x, rest_x+1, cv2.BORDER_CONSTANT, value=WHITE)
 
+        elements.append(cropped)
+    up_elem=[]
+    down_elem=[]
+    print("-------- FIN ---------")
+    for imgE in elements:
+        if (sec_elem(imgE) < input.shape[0]/2):
+            up_elem.append(imgE)
+            
+        else:
+            down_elem.append(imgE)
+
+    up_elem= sorted(up_elem, key=fst_elem)
+    down_elem= sorted(down_elem, key=fst_elem) 
+    return([up_elem[0:3], down_elem[0:3]])
+  
+
+
+      
 
     
-        for i in range(len(areas)):
-            box= cv2.boxPoints(areas[i])
-            box= np.int0(box)
-            cv2.drawContours(imgCarta,[box],0,(0,0,255),2)
-            
-            
-            print(eroded.shape)
-            MostrarImg(eroded)
-            cropped = skewAndCrop(imgCarta, areas[i])
-            MostrarImg(cropped)
-        #dilated = cv2.dilate(binarizada, kernel, iterations=15)
-        MostrarImg(first_line)
-        MostrarImg(second_line)
-        dilated = cv2.cvtColor(dilated, cv2.COLOR_BGR2GRAY)
-        input = np.asarray(input)
-        input = input.astype(np.float)
-        input /= 255
-'''
+
+
    
 
 
 def OCRDeepLearning(X):
         
-   
-    
-   
-    
+    X_up = []
+    X_down = []
+    for element in X[0]:
+        X_up.append(element[0])
+        
+    for element in X[1]:
+        X_down.append(element[0])
+        
 
-    json_file = open('C:/Users/sergm/source/repos/KerasNN/KerasNN/model.json', 'r')
+    print("OCR-DEEPLEARNING")
+    X_up = np.asarray(X_up)
+    X_down = np.asarray(X_down)
+    X_up = X_up.astype(np.float)
+    X_down = X_down.astype(np.float)
+    X_up /= 255
+    X_down /= 255
+    json_file = open('C:/Users/sergm/source/repos/KerasNN/KerasNN/model2.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()
     loaded_model = model_from_json(loaded_model_json)
-    # load weights into new model
-    loaded_model.load_weights("C:/Users/sergm/source/repos/KerasNN/KerasNN/model.h5")
-    print("Loaded model from disk")
-    #check_pointer = callbacks.ModelCheckpoint("C:/Users/sergm/source/repos/KerasNN/KerasNN/model_checkpoint.h5", save_best_only=True)
-
+    loaded_model.load_weights("C:/Users/sergm/source/repos/KerasNN/KerasNN/model2_vf.h5")
     loaded_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    answers = loaded_model.predict_classes(X)
-    return answers
+    answers_up = loaded_model.predict_classes(X_up)
+    answers_down = loaded_model.predict_classes(X_down)
+    print("Primera linea: ", answers_up)
+    print("Segunda linea: ",answers_down)
+    cut=0
+    str_answ=[]
+    char=""
+    for ans in answers_up:
+        ans = "%d"%ans
+        str_answ.append((ans))
+    for ans in answers_down:
+         str_answ.append(chr(ans+55))
+
+    return  str_answ
     
 
+def OCR_CartasReales(input):
+     OCR(img2, name)
 
    
 
 
 if __name__ == "__main__":
-    for i in listdir("C:/Users/sergm/source/repos/OCRTry/Generadas/Samples"):
-        print(i)
-        name= "C:/Users/sergm/source/repos/OCRTry/Generadas/Samples/%s" % i
-        print(name)
-        #print(name)
+    cont2=0
+    folder = askdirectory()
+    for i in listdir(folder):
+        cont=0
+        name=  folder+"/"+ i
+        lname= "%s"% i
         imgCarta= cv2.imread(name) 
-        #img2 = cv2.imread("C:/Users/sergm/source/repos/OCRTry/Reales/carta_entera4.jpg")
-        #imgCarta = img2
-        #OCR(imgCarta, name)
-        PrepararEntradas(imgCarta, name)
-        OCRDeepLearning()
+        MostrarImg(imgCarta)
+        img2 = cv2.imread("C:/Users/sergm/source/repos/OCRTry/Reales/carta_entera4.jpg")
+        img2 = RoInterestCartasReales(img2)
+        name= "carta_entera4.jpg"
+        text= OCR(img2, name)
         
+        print("------ RESULTADO -----")
+        print(text)
+        MostrarImg(imgCarta)
+        result = PrepararEntradas(imgCarta, lname)
+        str_answ= OCRDeepLearning(result)
+        print("Resultado: ",str_answ)
+        print("Cadena: ","".join(str_answ))
+        MostrarImg(imgCarta)
+       
+        
+ 
+
         
 
 

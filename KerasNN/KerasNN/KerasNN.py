@@ -22,7 +22,7 @@ import cv2
 import string
 import unicodedata
 import pydot
-
+import array
 
 
 plt.rcParams['figure.figsize'] = (7,7)
@@ -34,58 +34,118 @@ X_train= []
 Y_train= []
 X_test =[]
 Y_test= []
-nb_classes = 2
+counter=0
+nb_classes = 37
 #for letra in letras:
     #print(letra, ord(letra)-55)
-
+list_comprob=[]
 print("----- PREPARANDO -----")
-for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Modified"):
-
+#for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Modified"):
+for file in listdir("C:/Users/sergm/source/repos/OCRTry/Elementos/Train/Samples"):
     #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
     
 
-    img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Modified/%s"%file)
+    #img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Samples/Modified/%s"%file)
+    img =cv2.imread("C:/Users/sergm/source/repos/OCRTry/Elementos/Train/Samples/%s"%file)
     #zeros = np.zeros((60,60, 3),float)
     #zeros[:img.shape[0],:img.shape[1]]=img
     X_train.append(img)
     
-for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers"):
+#for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers"):
+for file in listdir("C:/Users/sergm/source/repos/OCRTry/Elementos/Train/Answers"):
 
     #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
-    fich=open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers/%s"%file)
-    str=fich.read()
+    #fich=open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/Answers/%s"%file)
     
-    if(str.isnumeric()):
-        Y_train.append(str)
+    file=open("C:/Users/sergm/source/repos/OCRTry/Elementos/Train/Answers/%s"%file)
+    str=file.read()
+    list_comprob.append(str)
+    #print("%s"%file.name, str)
+    #print(str, len(str))
+    
+    if(str != "\n" ):
+        if(str.isnumeric()):
+            Y_train.append(str)
+            counter=counter+1
+        
+        else:
+            aux= ord(str)-55
+            if(aux<37):
+                Y_train.append(aux)
+                counter=counter+1
+            else:
+                 new_X_train= X_train[0:counter-1]
+                 new_X_train2= X_train[counter:len(X_train)]
+                 X_train = new_X_train+new_X_train2
+                 counter=counter-1
     else:
-        Y_train.append(ord(str)-55)
+         print("detectamos vacio")
+         print(counter)
+         print(len(X_train[1]))
+         new_X_train= X_train[0:counter-1]
+         new_X_train2= X_train[counter:len(X_train)]
+         X_train = new_X_train+new_X_train2
+         counter=counter-1
+
+        
+second_l= list(set(list_comprob))
+print(second_l)
         
 
+counter=0
 
 
-
-for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Modified"):
+#for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Modified"):
+for file in listdir("C:/Users/sergm/source/repos/OCRTry/Elementos/Test/Samples"):
 
     #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
     
-    img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Modified/%s"%file)
+    img =cv2.imread("C:/Users/sergm/source/repos/OCRTry/Elementos/Test/Samples/%s"%file)
     #zeros = np.zeros((60,60, 3),float)
     #zeros[:img.shape[0],:img.shape[1]]=img
     X_test.append(img)
-for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers"):
 
+print(len(X_test))
+#for file in listdir("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers"):
+for file in listdir("C:/Users/sergm/source/repos/OCRTry/Elementos/Test/Answers"):
+    #print(len(X_test))
     #print("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Train/%s"%file)
-    file=open("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Answers/%s"%file)
+    file=open("C:/Users/sergm/source/repos/OCRTry/Elementos/Test/Answers/%s"%file)
     str=file.read()
-    if(str.isnumeric()):
-        Y_test.append(str)
+    #print(str, len(str))
+    
+    if(str != "\n" ):
+        if(str.isnumeric()):
+            Y_test.append(str)
+            counter=counter+1
+        
+        else:
+            aux= ord(str)-55
+            if(aux<37):
+                Y_test.append(aux)
+                counter=counter+1
+            else:
+                 new_X_test= X_test[0:counter-1]
+                 new_X_test2= X_test[counter:len(X_test)]
+                 X_test = new_X_test+new_X_test2
+                 counter=counter-1
     else:
-        Y_test.append(ord(str)-55)
+         print("detectamos vacio")
+         #print(counter)
+         #print(len(X_test[1]))
+         new_X_test= X_test[0:counter-1]
+         new_X_test2= X_test[counter:len(X_test)]
+         X_test = new_X_test+new_X_test2
+         counter=counter-1
+         #X_test= np.delete(X_test, counter)
+       
         
 
+#print(len(X_train), Y_train)
+conta=0
+print(len(X_test))
 
-
-
+print("---------------------")
 #print(X_train[0].shape)
 
 X_train = np.asarray(X_train)
@@ -99,11 +159,13 @@ X_test = X_test.astype(np.float)
 X_test /= 255 
 #X_test = X_test.reshape(2000,90,30,1)
 Y_test = np.asarray(Y_test)
-print(Y_train[0], Y_test[0])
+
 
 Y_train = np_utils.to_categorical(Y_train, num_classes=37)
 Y_test = np_utils.to_categorical(Y_test, num_classes=37)
 #img =cv2.imread("C:/Users/sergm/source/repos/PillowImageGenerator/Output/Test/Samples/Modified/test1.png")
+
+
 
 '''
     #print("X_train original shape", X_train.shape)
@@ -129,31 +191,30 @@ Y_test = np_utils.to_categorical(Y_test, num_classes=37)
 '''
 
 
+'''
 
+    #Y_train = np_utils.to_categorical(Y_train, nb_classes)
+    #Y_test = np_utils.to_categorical(Y_test, nb_classes)
+    #X_train[0].shape[0], X_train[0].shape[1]
+    model = Sequential()
+    model.add(Conv2D(512, (3,3), activation="relu", input_shape=(60,60,3)))
+    model.add(MaxPooling2D(pool_size=(2,2), strides=(2,2)))
+    model.add(Conv2D(512, (5,5), activation="relu"))
+    model.add(MaxPooling2D(pool_size=(2,2)))
+    #model.add(Reshape((16, 12, 128)))
+    #model.add(TimeDistributed(Flatten()))
+    #model.add(LSTM(512,return_sequences=True))
+    #model.add(Flatten())
+    #model.add(Reshape((37,-1)))
+    model.add(Flatten())
+    model.add(Dense(512,activation='relu'))
+    model.add(Dense(37, activation='softmax'))
 
+    model.summary()
+    #adam= keras.optimizers.Adam()
+    plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
 
-#Y_train = np_utils.to_categorical(Y_train, nb_classes)
-#Y_test = np_utils.to_categorical(Y_test, nb_classes)
-#X_train[0].shape[0], X_train[0].shape[1]
-model = Sequential()
-model.add(Conv2D(512, (3,3), activation="relu", input_shape=(60,60,3)))
-model.add(MaxPooling2D(pool_size=(2,2), strides=(2,2)))
-model.add(Conv2D(512, (5,5), activation="relu"))
-model.add(MaxPooling2D(pool_size=(2,2)))
-#model.add(Reshape((16, 12, 128)))
-#model.add(TimeDistributed(Flatten()))
-#model.add(LSTM(512,return_sequences=True))
-#model.add(Flatten())
-#model.add(Reshape((37,-1)))
-model.add(Flatten())
-model.add(Dense(512,activation='relu'))
-model.add(Dense(37, activation='softmax'))
-
-model.summary()
-#adam= keras.optimizers.Adam()
-plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
-
-
+'''
 '''
     #model.add(Dense(512, input_dim=784))
     #model.add(Activation('relu'))
@@ -208,19 +269,31 @@ print("".join(str_answ))
 #predictions = loaded_model.predict(X_train[0:10])
 #rounded = [round(x[0]) for x in predictions]
 #print(predictions)
-model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-model.fit(X_train, Y_train, batch_size=50, epochs=1, verbose=1, validation_data=(X_test, Y_test))
+
+print(len(Y_train))
+json_file = open('C:/Users/sergm/source/repos/KerasNN/KerasNN/model2.json', 'r')
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+# load weights into new model
+loaded_model.load_weights("C:/Users/sergm/source/repos/KerasNN/KerasNN/model2_vf.h5")
+print("Loaded model from disk")
+#check_pointer = callbacks.ModelCheckpoint("C:/Users/sergm/source/repos/KerasNN/KerasNN/model_checkpoint.h5", save_best_only=True)
+
+loaded_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+#model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+loaded_model.fit(X_train, Y_train, epochs=1, verbose=1, validation_data=(X_test, Y_test))
 #model.fit(X_train, Y_train, 128, 4, 1, validation_data=(X_test, Y_test))
 
-score = model.evaluate(X_test, Y_test, verbose=1)
+score = loaded_model.evaluate(X_test, Y_test, verbose=1)
 print('Test score:', score[0])
 print('Test acuracy: ', score[1])
 
-model_json = model.to_json()
+model_json = loaded_model.to_json()
 with open("model2.json", "w") as json_file:
         json_file.write(model_json)
 
-model.save_weights("model2.h5")
+loaded_model.save_weights("model2_vf.h5")
 print("Saved model to disk")
 
 

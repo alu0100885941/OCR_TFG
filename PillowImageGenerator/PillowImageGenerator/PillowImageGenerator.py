@@ -12,7 +12,7 @@ import numpy as np
 import imutils
 iter=0
 iter2=0
-n_pruebas= 100
+n_pruebas= 10
 
 def noise_generator (noise_type,image):
     """
@@ -259,14 +259,15 @@ for i in range(0, n_pruebas):
  
     for j in range(0,80):
         #create_dataTraining(iter, j)
-        arbiter_Train(iter,j)
+        create_imgText(iter)
+        #arbiter_Train(iter,j)
         #create_dataNumerosTrain2(iter)
         
         iter=iter+1
 
     for j in range(0,20):
-        #create_imgText(iter2, j)
-        arbiter_Test(iter2, j)
+        create_imgText(iter2)
+        #arbiter_Test(iter2, j)
         #create_dataNumerosTest2(iter2)
         iter2=iter2+1
     print("Prueba ", i)
